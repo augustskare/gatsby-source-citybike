@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-source-citybike",
+  "description": "A Gatsby source plugin for getting city bike data for Oslo, Bergen, Trondheim and Edinburgh",
+  "author": "August Skare <post@augustskare.no> (https://augustskare.no)",
+  "version": "1.0.3",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-citybike",
+    "citybike",
+    "bysykkel"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/augustskare/gatsby-source-citybike/issues"
+  },
+  "homepage": "https://github.com/augustskare/gatsby-source-citybike",
+  "scripts": {
+    "prettier": "prettier --write gatsby-node.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "1.17.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  }
+}
